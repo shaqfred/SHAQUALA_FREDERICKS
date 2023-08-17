@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: pink;
+  margin:0;
+  padding: 0;
+  justify-content: center;
+}
+
+.container{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.game-board{
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba (0,0,0,0.1);
+padding:20px;
+text-align:center;
+}
+h1{
+  background-color: aquamarine;
+}
+.player{
+  margin:10px;
+}
+
+.player h2{
+  font-size: 200px;
+  color: green;
+}
+
+.player p {
+  font-size: 1.2rem;
+  color: #333 
+}
+
+.roll-button{
+  background-color: red;
+  color: aliceblue;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dice-value{
+  font-size:1.5 px;
+  color: black;
+  margin-top: 20px;
+}
